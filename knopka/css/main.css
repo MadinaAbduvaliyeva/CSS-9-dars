@@ -1,0 +1,220 @@
+.wrap{
+    width: 1200px;
+    margin: 30px auto;
+}
+.menu-block{
+    width: 1200px;
+    position: relative;
+}
+.menu-item{
+    width: 1200px;
+    float: left;
+    height: 200px;
+
+}
+p{
+    float: left;
+    margin: 35px;
+}
+.menu-block2{
+    width: 1200px;
+    position: relative;
+}
+.menu-item2{
+  width: 190px;
+    height: 240px;
+    float: left;
+
+    background-image: url("../rasm/06.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: relative;
+    bottom: 140px;
+    right: 110px;
+
+}
+.menu-item3{
+    width: 140px;
+    height: 250px;
+    float: left;
+
+    background-image: url("../rasm/06.jpg");
+    background-repeat: no-repeat;
+    background-position: left -190px top -240px;
+    position: relative;
+    bottom: 115px;
+    right: 120px;
+
+}
+.menu-item4{
+    width: 100px;
+    height: 240px;
+    float: left;
+
+    background-image: url("../rasm/06.jpg");
+    background-repeat: no-repeat;
+    background-position: left -365px bottom 20px;
+    position: relative;
+    bottom: 130px;
+    right: 110px;
+
+}
+.menu-item5{
+    width: 150px;
+    height: 240px;
+    float: left;
+
+    background-image: url("../rasm/06.jpg");
+    background-repeat: no-repeat;
+    background-position: left -455px bottom 20px;
+    position: relative;
+    bottom: 130px;
+    right: 140px;
+
+}
+.menu-item6{
+    width: 190px;
+    height: 240px;
+    float: left;
+
+    background-image: url("../rasm/06.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom 20px;
+    position: relative;
+    bottom: 130px;
+    right: 140px;
+
+}
+.wrap{
+    width: 120px;
+    margin: 30px auto;
+}
+.menu{
+    width: 1200px;
+    position: relative;
+}
+.item{
+    width: 1200px;
+    float: left;
+    height: 200px;
+}
+p{
+    float: left;
+    margin-left: 45px;
+}
+.menu2{
+    width: 1200px;
+    position: relative;
+}
+.item2{
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    position: relative;
+    top: 510px;
+    left: 20px;
+    border: 1px solid black;
+}
+.item3{
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 460px;
+    left: 130px;
+}
+.item4{
+    width: 90px;
+    height: 50px;
+transform: skew(-20deg);
+    background-color: grey;
+    position: relative;
+
+    top: 410px;
+    left: 250px;
+}
+.item5{
+    width: 90px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 360px;
+    left: 370px;
+}
+.item6{
+    width: 100px;
+    height: 50px;
+   border-radius: 10px;
+    background-color: lightgreen;
+    position: relative;
+    top: 308px;
+    left: 480px;
+}
+.loader{
+    width: 45px;
+    height: 48px;
+
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+  left: 45px;
+
+    box-sizing: border-box;
+
+}
+.loader2{
+    width: 45px;
+    height: 48px;
+   border: 1px solid black;
+    background-color: white;
+    border-radius: 50%;
+
+    box-sizing: border-box;
+}
+.off{
+    position: relative;
+    bottom: 570px;
+    right: 12px;
+}
+.loader3{
+    width: 45px;
+    height: 48px;
+
+    background-color: grey;
+    border-radius: 50%;
+
+    box-sizing: border-box;
+}
+.yeah{
+    position: relative;
+    bottom: 555px;
+    right: 15px;
+}
+.item2:active{
+  background-color: white;
+}
+.loader:active{
+   background-color: grey;
+  margin-left: -40px;
+    animation-delay: 12s;
+    animation-duration: 5s;
+    animation-iteration-count: unset;
+    margin-right: 20px;
+
+}
+.item3:active{
+    background-color: lightgreen;
+}
+.loader2:active{
+    background-color: white;
+    transform: translate(20px 0);
+    animation-delay: 12s;
+    animation-duration: 5s;
+    animation-iteration-count: unset;
+
+}
